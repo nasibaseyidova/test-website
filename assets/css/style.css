@@ -1,0 +1,311 @@
+@font-face {
+    font-family: "Raleway";
+    src: url(../vendors/fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Raleway", sans-serif;
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url(../images/image-bg.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: inherit;
+}
+
+/* Header start */
+.main-title{
+    text-align: center;
+    margin-block: 80px;
+}
+.main-title h2{
+    color: rgba(230, 167, 86, 1);
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    line-height: 32px;
+}
+.main-title h3{
+    color: #f6e1c5;
+    font-size: 80px;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 64px;
+}
+/* Header end */
+
+
+/* Navbar start */
+.main-navbar{
+    background: rgba(47, 23, 15, 0.9);
+    padding-block: 35px;
+}
+.nav-list{
+    text-align: center;
+    list-style: none;
+}
+.nav-link{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    font-weight: 800; 
+    padding-inline: 25px;
+    color: rgba(255, 255, 255, 0.7);
+}
+a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    padding: 8px;
+}
+
+a:hover {
+    color: rgba(255, 255, 255, 0.4);;
+}
+/* Navbar end */
+
+
+/* section-top start */
+.page-main{
+    position: relative;
+}
+.section{
+    margin-block: 80px;
+    position: relative;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    position: relative;
+}
+
+.section-top-image{
+    width: 75%;
+    margin-left: auto;
+    border-radius: 6px;
+}
+
+.section-top-description{
+    background-color: #f6e1c5;
+    border-radius: 6px;
+    text-align: center;
+    padding: 48px;
+    position: absolute;
+    width: 45%;
+    top: 48px;
+}
+.section-top-description h2{
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.section-top-description h3{
+    font-size: 48px;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 30px;
+}
+.section-top-description p{
+    line-height: 1.75;
+    font-weight: 400;
+    text-align: center;
+}
+
+.section-top-description button{
+    position: absolute;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 170px;
+    background-color: #e6a756;
+    border-radius: 6px;
+    border: none;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 30px;
+}
+.section-top-description button a{
+    color: black;
+}
+
+/* section-top end */
+
+/* section down start */
+.section-down{
+    background-color: rgba(230, 167, 86, 0.9);
+    padding-block: 80px;
+}
+.section-border{
+    border: 4px solid #e6ad64;
+    border-radius: 6px;
+    padding: 4px;
+    width: 65%;
+    margin: auto;
+    position: relative;
+}
+.section-down-description{
+    text-align: center;
+    background-color: #f6e1c5;
+    padding: 48px;
+    border-radius: 6px;
+    margin: auto;
+    width: 100%;
+}
+.section-down-description h2{
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.section-down-description h3{
+    font-size: 48px;
+    font-weight: 100;
+    text-transform: uppercase;
+    line-height: 1.3;
+    margin-bottom: 30px;
+}
+.section-down-description p{
+    line-height: 1.75;
+}
+/* section down end */
+.footer{
+    background-color: rgba(47, 23, 15, 0.9);
+}
+.footer p{
+    color: #f6e1c5;
+    text-align: center;
+    padding-block: 48px;
+    font-size: 14px;
+}
+
+/* footer start */
+
+
+
+/* About HTML start */
+.about-section{
+    /* position: relative; */
+    margin-bottom: 220px;
+}
+.about-description{
+    background: #f6e1c5;
+    border-radius: 6px;
+    padding: 48px;
+    position: absolute;
+    width: 68%;
+    bottom: -150px;
+    margin-inline: auto;
+    inset-inline: 0;
+}
+.about-description h3{
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.about-description h2{
+    font-size: 48px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.about-description p{
+    line-height: 1.75;
+}
+.about-description p:first-of-type{
+    padding-block: 20px;
+}
+/* About HTML end */
+
+
+
+/* Products page start */
+.product-section{
+    margin-block: 200px;
+}
+.product-container{
+    margin-bottom: 300px;
+}
+.product-description{
+    background-color: #f6e1c5;
+    margin-left: auto;
+    border-radius: 6px;
+    padding: 48px;
+    width: 40%;
+    position: absolute;
+}
+.product-description h2{
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.product-description h3{
+    font-size: 48px;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.product-description-top-right{
+    right: 0;
+    top: -100px;
+}
+.image-product{
+    width: 60vw;
+    inset-inline: 0;
+    margin: auto;
+    border-radius: 6px;
+    margin-block: 80px;
+}
+.product-description-bottom-down{
+    bottom: -140px;
+    width: 56%;
+    line-height: 1.75;
+}
+.product-description-top-left{
+    width: 45%;
+    top: -100px;
+}
+.product-description-bottom-right{
+    right: 0;
+    bottom: -120px;
+    width: 55%;
+    line-height: 1.75;
+}
+.product-description-bottom-down-last{
+    width: 55%;
+}
+/* Products page end */
+
+
+/* store page start */
+.store-hours-info{
+    font-style: italic;
+    font-size: 18px;
+    margin: auto;
+    font-size: 18px;
+    border-spacing: 100px 20px;
+}
+.store-hours-info tr{
+    border-bottom: 2px solid #efc48f;
+     
+}
+.store-hours{
+    color: #e6a756;
+}
+.store-address{
+    margin-block: 30px;
+}
+.store-address p:nth-child(1){
+    font-weight: bolder;
+}
+
+/* store page end */
